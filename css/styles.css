@@ -1,0 +1,105 @@
+/* ids */
+
+#app {
+    background: linear-gradient(120deg, #fff 44.9%, #4c79d3 45%) no-repeat fixed;
+}
+
+#login {
+    background: linear-gradient(120deg, #4c79d3 44.9%, #fff 45%) no-repeat fixed;
+}
+
+/* classes */
+
+.button-default {
+    border-radius: 10px !important;
+    background-color: #4e0070 !important;
+    color: white !important;
+}
+
+.button-cancel {
+    border-radius: 10px !important;
+}
+
+.button-float {
+    border-radius: 100% !important;
+    height: 60px;
+    width: 60px;
+    padding: 0px !important;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 35px !important;
+    background-color: #4e0070 !important;
+    color: white !important;
+    border: 2px solid #4e0070 !important;
+}
+.button-float:hover {
+    border: 2px solid #4c79d3 !important;
+    background-color: white !important;
+    color: #4c79d3 !important;
+}
+
+.button-login {
+    border-radius: 10px !important;
+    background-color: #4e0070 !important;
+    color: white !important;
+    width: 50% !important;
+    margin: 0 25% !important;
+}
+.button-login:hover, .button-default:hover {
+    background-color: #4c79d3 !important;
+}
+
+.color-primary {
+    color: #4e0070
+}
+.color-secondary {
+    color: #4c79d3
+}
+
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+.icon-detail {
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.info {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.link-default {
+    color: #4e0070;
+    cursor: pointer;
+}
+.link-default:hover {
+    color: #4c4c4c;
+}
+
+.logout {
+    min-width: 0px !important;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.text-login {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* DOM */
+
+header {
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: white;
+}
